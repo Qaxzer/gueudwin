@@ -1,5 +1,8 @@
 const { SlashCommandBuilder } = require('discord.js');
 
+/**
+ *  Commande issue de la documentation de discordJS qui répond l'utilisateur qui a utilisé la commande et quand il a rejoin le serveur
+ */
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('user')

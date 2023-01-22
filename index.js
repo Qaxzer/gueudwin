@@ -1,5 +1,8 @@
 require('dotenv').config();
 
+/**
+ *  Promis la documentation arrive u_u laissé moi le temps :p
+ */
 const fs = require('node:fs');
 const path = require('node:path');
 

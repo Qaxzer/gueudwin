@@ -1,5 +1,7 @@
 const { SlashCommandBuilder } = require('discord.js');
-
+/**
+ *  Commande issue de la documentation de discord JS qui renvoie les informations sur le serveur (nom et nombre de membre)
+ */
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('server')
